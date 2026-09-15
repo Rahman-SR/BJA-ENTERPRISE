@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="vaseGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="40%" stop-color="#7c3aed"/>
+      <stop offset="80%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </linearGradient>
+    <filter id="shadow7" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-opacity="0.15" flood-color="#0f172a"/>
+    </filter>
+  </defs>
+  <rect width="500" height="500" fill="url(#bgGrad7)"/>
+  <ellipse cx="250" cy="415" rx="110" ry="18" fill="#0f172a" opacity="0.12" filter="blur(8px)"/>
+  
+  <!-- Flowers poking out -->
+  <path d="M 250 200 Q 230 110 200 70" stroke="#16a34a" stroke-width="4" fill="none"/>
+  <path d="M 250 200 Q 265 100 290 60" stroke="#16a34a" stroke-width="4" fill="none"/>
+  <path d="M 250 200 Q 250 90 245 50" stroke="#16a34a" stroke-width="4" fill="none"/>
+  
+  <!-- Flower heads -->
+  <circle cx="200" cy="70" r="16" fill="#f43f5e"/>
+  <circle cx="200" cy="70" r="6" fill="#fef08a"/>
+  
+  <circle cx="290" cy="60" r="18" fill="#ec4899"/>
+  <circle cx="290" cy="60" r="7" fill="#fef08a"/>
+  
+  <circle cx="245" cy="50" r="16" fill="#fb923c"/>
+  <circle cx="245" cy="50" r="6" fill="#fef08a"/>
+
+  <!-- Ceramic Vase with Violet Glaze -->
+  <g filter="url(#shadow7)">
+    <path d="M 215 190 
+             Q 180 260 160 320 
+             Q 150 380 200 405 
+             L 300 405 
+             Q 350 380 340 320 
+             Q 320 260 285 190 
+             Z" fill="url(#vaseGrad)"/>
+             
+    <!-- Top Rim -->
+    <ellipse cx="250" cy="190" rx="35" ry="10" fill="#a78bfa" stroke="#6d28d9" stroke-width="2"/>
+    <ellipse cx="250" cy="190" rx="28" ry="7" fill="#3b0764"/>
+
+    <!-- Gold Accent Ring Around Neck -->
+    <ellipse cx="250" cy="235" rx="42" ry="8" fill="url(#goldRibbon)"/>
+
+    <!-- Floral / Geometric Ceramic Pattern Motif -->
+    <circle cx="250" cy="330" r="28" fill="none" stroke="url(#goldRibbon)" stroke-width="2.5" stroke-dasharray="4 2"/>
+    <circle cx="250" cy="330" r="14" fill="none" stroke="url(#goldRibbon)" stroke-width="2"/>
+    <circle cx="250" cy="330" r="5" fill="#fef08a"/>
+    
+    <!-- Sheen Highlight -->
+    <path d="M 200 230 Q 185 300 195 380" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.3" fill="none"/>
+  </g>
+  <text x="250" y="455" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="600" fill="#64748b" text-anchor="middle">Decorative Ceramic Flower Vase</text>
+</svg>
