@@ -1717,6 +1717,61 @@ a {
   font-size: 0.85rem;
 }
 
+.footer-developer {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #9ca3af;
+  font-size: 0.86rem;
+}
+
+.footer-developer strong {
+  color: #f3f4f6;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.footer-social-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #d1d5db;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.social-icon-btn svg {
+  display: block;
+}
+
+.social-icon-btn:hover {
+  transform: translateY(-2px);
+  color: #ffffff;
+}
+
+.social-icon-btn.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-color: transparent;
+  box-shadow: 0 4px 12px rgba(214, 36, 159, 0.4);
+}
+
+.social-icon-btn.linkedin:hover {
+  background-color: #0077b5;
+  border-color: #0077b5;
+  box-shadow: 0 4px 12px rgba(0, 119, 181, 0.4);
+}
+
 /* --------------------------------------------------------------------------
    Mobile Sticky Bottom Contact Bar
    -------------------------------------------------------------------------- */
